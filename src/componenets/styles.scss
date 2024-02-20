@@ -1,0 +1,68 @@
+.phoneOtpForm {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.phoneForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.phoneNumberInput {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submitBtn {
+  padding: 10px;
+  background-color: #eb5060;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submitBtn:hover {
+  background-color: #eb5060;
+}
+
+.otpInputContainer {
+  margin-top: 20px;
+}
+
+.otpInfo {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.otpInput {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  text-align: center;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.otpSubmitBtn {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #eb5060;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.otpSubmitBtn:hover {
+  background-color: #eb5060;
+}
